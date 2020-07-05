@@ -1,0 +1,17 @@
+# Copyright (c) 2020 Oracle and/or its affiliates. All rights reserved.
+#
+# This is an example extension.yaml with all fields described
+ 
+#
+# The name of the extension
+#
+name: HelloWorld
+ 
+#
+# The type of the extension, takes values [interactive,initializer]
+# interactive - The terminal is terminated when extension.sh ends and no further shell occurs
+# initializer - extension.sh runs first but then a normal cloudshell runs
+#
+# defaults to interactive
+#
+type: initializer
